@@ -1,0 +1,70 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Style the header section */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Style content sections */
+section {
+    background-color: #fff;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings and article content */
+h2, h3 {
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+article {
+    margin-bottom: 1.5rem;
+}
+
+/* Style the list items */
+ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+    
+    header p {
+        font-size: 1rem;
+    }
+
+    section {
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+}
